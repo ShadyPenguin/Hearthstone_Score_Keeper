@@ -46,5 +46,15 @@ describe User do
       end
     end
 
+    it 'should reject duplicate emails' do
+      User.create!(@attr)
+      User.new(@attr).should_not be_valid
+    end
+
+    it 'should reject duplicate emails (case insensitive)' do
+      User.create!(@attr)
+      User.new(@attr.merge(email: "USER@example.com")).should_not be_valid
+    end
+
   end
 end

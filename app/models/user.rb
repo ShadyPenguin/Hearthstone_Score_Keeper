@@ -5,5 +5,6 @@ class User < ActiveRecord::Base
             length: {maximum: 16}
 
   validates :email, presence: true,
-            format: {with: /\w+@\w+\.\w{2,}/}
+            format: {with: /\w+@\w+\.\w{2,}/},
+            uniqueness: {case_sensitive: false}
 end
