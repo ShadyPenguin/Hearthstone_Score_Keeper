@@ -55,6 +55,12 @@ describe User do
       User.create!(@attr)
       User.new(@attr.merge(email: "USER@example.com")).should_not be_valid
     end
+  end
 
+  describe 'Password Validations' do
+    it 'should reject short passwords (< 6 chars)' do
+      user_short_password = User.new(@attr.merge(password: 'foo', password_confirmation: 'foo'))
+      user_short_password.should_not be_valid
+    end
   end
 end
