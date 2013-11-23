@@ -1,28 +1,15 @@
-== README
+# Hearthstone Score Keeper
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Deployment URL will go here :)
 
-Things you may want to cover:
+#### Are you tired of storing your deck-data in a LAME excel doc or Google drive?
+##### Have no fear, HSK is here! Don't let the fun end once your game ends; updating, storing, and viewing your data should be just as entertaining.
 
-* Ruby version
+Your data is safe here!
+Why?
+* Not a single line of code is written before the tests
+* Passwords are stored as encrypted hashes (BCrypt)
+* I care about Hearthstone
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+One Love
+ShadyPenguin
