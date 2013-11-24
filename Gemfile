@@ -4,6 +4,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0.0.beta'
 end
 
+gem 'coveralls', require: false
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
