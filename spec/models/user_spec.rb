@@ -15,6 +15,10 @@ describe User do
     expect { User.create!(@attr) }.to change(User, :count).by(1)
   end
 
+  it 'should have many decks' do
+    expect(User.create!(@attr).decks).to eq(Deck.all)
+  end
+
   describe 'Username Validations' do
     it 'should require username' do
       User.new(@attr.merge(username: '')).should_not be_valid

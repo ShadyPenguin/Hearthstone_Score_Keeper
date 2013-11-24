@@ -1,6 +1,8 @@
 class User < ActiveRecord::Base
   has_secure_password
 
+  has_many :decks
+
   validates :username, presence: true,
             length: {maximum: 16}
 
