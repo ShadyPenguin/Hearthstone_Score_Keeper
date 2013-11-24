@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ShadyPenguin/Hearthstone_Score_Keeper.png?branch=master)](https://travis-ci.org/ShadyPenguin/Hearthstone_Score_Keeper)
 # Hearthstone Score Keeper
 
 ### Tired of storing your deck-data in a LAME excel doc or Google drive?
