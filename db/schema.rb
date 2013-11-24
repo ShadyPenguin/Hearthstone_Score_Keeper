@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 20131124041123) do
 
   create_table "decks", force: true do |t|
     t.string   "name",                   null: false
-    t.string   "class",                  null: false
-    t.integer  "user_id"
+    t.string   "class_type",             null: false
+    t.integer  "user_id",                null: false
     t.integer  "wins",       default: 0
     t.integer  "losses",     default: 0
     t.datetime "created_at"
