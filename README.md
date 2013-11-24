@@ -1,5 +1,6 @@
-[![Build Status](https://travis-ci.org/ShadyPenguin/Hearthstone_Score_Keeper.png?branch=master)](https://travis-ci.org/ShadyPenguin/Hearthstone_Score_Keeper)
 # Hearthstone Score Keeper
+[![Build Status](https://travis-ci.org/ShadyPenguin/Hearthstone_Score_Keeper.png?branch=master)](https://travis-ci.org/ShadyPenguin/Hearthstone_Score_Keeper)
+[![Coverage Status](https://coveralls.io/repos/ShadyPenguin/Hearthstone_Score_Keeper/badge.png?branch=master)](https://coveralls.io/r/ShadyPenguin/Hearthstone_Score_Keeper?branch=master)
 
 ### Tired of storing your deck-data in a LAME excel doc or Google drive?
 Have no fear, HSK is here! Don't let the fun end once your game ends; updating, storing, and viewing your data should be just as entertaining.
